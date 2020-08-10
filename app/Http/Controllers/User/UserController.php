@@ -173,6 +173,7 @@ class UserController extends Controller
     {
         $data = DB::table('jobs')->get();
         return response()->json($data,200);
+        git
     }*/
 
 }
